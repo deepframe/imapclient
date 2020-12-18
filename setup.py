@@ -74,7 +74,7 @@ main_deps = common_deps + [
     'pyopenssl>=' + info["min_pyopenssl_version"],
 ]
 
-setup_deps = common_deps + ['sphinx==1.8.5']
+setup_deps = common_deps
 
 test_deps = []
 if IS_PY_26_OR_OLDER:
